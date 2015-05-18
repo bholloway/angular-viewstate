@@ -1,0 +1,30 @@
+{
+  "name": "angular-viewstate",
+  "version": "0.0.1",
+  "description": "A state machine suited for angular 1.x digest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bholloway/angular-viewstate.git"
+  },
+  "keywords": [
+    "statemachine",
+    "states",
+    "flags",
+    "scope",
+    "digest",
+    "angular"
+  ],
+  "author": "bholloway",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bholloway/angular-viewstate/issues"
+  },
+  "homepage": "https://github.com/bholloway/angular-viewstate",
+  "dependencies": {
+    "lodash.merge": "^3.2.1"
+  }
+}
