@@ -16,7 +16,7 @@ In your angular composition:
 
 ```javascript
 angular.module('myModule', [])
-  .factory('viewState', require('angular-viewstate');
+  .factory('viewState', require('angular-viewstate'));
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ angular.module('myModule', [])
 function controller($scope) {
 
   // setup states
-  var state = require('angular-viewstate)
+  var state = require('angular-viewstate')
     .state('LOADING')
     .state('READY')
     .state('SAVING')
